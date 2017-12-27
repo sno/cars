@@ -6,7 +6,7 @@ Material:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: smoke
+  m_Name: carbody-toon
   m_Shader: {fileID: 4800000, guid: 1978e9e9186131f4f8d3224d78c7ff3b, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
@@ -64,19 +64,19 @@ Material:
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
     - _GlossMapScale: 1
-    - _Glossiness: 0.5
+    - _Glossiness: 0.273
     - _GlossyReflections: 1
-    - _Metallic: 0
+    - _Metallic: 0.434
     - _Mode: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.02
-    - _RimPower: 1
+    - _RimPower: 1.5
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
     - _UVSec: 0
     - _ZWrite: 1
     m_Colors:
-    - _Color: {r: 0.58823526, g: 0.58823526, b: 0.58823526, a: 1}
+    - _Color: {r: 1, g: 0.8651116, b: 0.30147058, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _RimColor: {r: 0.7352941, g: 0.7352941, b: 0.7352941, a: 1}
+    - _RimColor: {r: 1, g: 0.97687626, b: 0.16176468, a: 1}
