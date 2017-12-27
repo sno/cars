@@ -145,7 +145,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: 47a109496e1c54ff590702834c72d146, type: 2}
+  - {fileID: 2100000, guid: bfed82b2e6a734a7287d9aa6c4f6e23d, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -235,8 +235,8 @@ WheelCollider:
   m_Center: {x: 0, y: 0, z: 0}
   m_Radius: 0.3
   m_SuspensionSpring:
-    spring: 12853.583
-    damper: 4284.528
+    spring: 12853.581
+    damper: 4284.5273
     targetPosition: 0.5
   m_SuspensionDistance: 0.37847224
   m_ForceAppPointDistance: 0.76619804
@@ -339,6 +339,22 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &455260206 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 100002, guid: baec086904791744185aaa07a6cf55c2, type: 2}
+  m_PrefabInternal: {fileID: 515944402}
+--- !u!114 &455260212
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 455260206}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff26db721962cdf4a8edcdfa9a767d2a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  profile: {fileID: 11400000, guid: 56476f831cc154e12b963ee8a994c6e0, type: 2}
 --- !u!1 &459240416
 GameObject:
   m_ObjectHideFlags: 0
@@ -377,8 +393,8 @@ WheelCollider:
   m_Center: {x: 0, y: 0, z: 0}
   m_Radius: 0.3
   m_SuspensionSpring:
-    spring: 12918.615
-    damper: 4306.2056
+    spring: 12918.614
+    damper: 4306.205
     targetPosition: 0.5
   m_SuspensionDistance: 0.37847224
   m_ForceAppPointDistance: 0.76619804
@@ -520,7 +536,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: baec086904791744185aaa07a6cf55c2, type: 2}
       propertyPath: m_LocalPosition.z
-      value: -5.74
+      value: -3.19
       objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: baec086904791744185aaa07a6cf55c2, type: 2}
       propertyPath: m_RollSpeed
@@ -528,7 +544,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: baec086904791744185aaa07a6cf55c2, type: 2}
       propertyPath: m_MoveSpeed
-      value: 1
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2000000, guid: baec086904791744185aaa07a6cf55c2, type: 2}
+      propertyPath: m_RenderingPath
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: baec086904791744185aaa07a6cf55c2, type: 2}
@@ -4680,10 +4700,10 @@ WheelCollider:
   m_Center: {x: 0, y: 0, z: 0}
   m_Radius: 0.3
   m_SuspensionSpring:
-    spring: 13001.385
-    damper: 4333.7954
+    spring: 13001.383
+    damper: 4333.7944
     targetPosition: 0.5
-  m_SuspensionDistance: 0.37847224
+  m_SuspensionDistance: 0.37847227
   m_ForceAppPointDistance: 0.76619804
   m_Mass: 20
   m_WheelDampingRate: 0.25
@@ -8256,7 +8276,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: bfed82b2e6a734a7287d9aa6c4f6e23d, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -8507,7 +8527,7 @@ ParticleSystem:
   moveWithTransform: 1
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 1
-  randomSeed: -906821906
+  randomSeed: 1268552856
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -16164,9 +16184,9 @@ WheelCollider:
   m_Radius: 0.3
   m_SuspensionSpring:
     spring: 13066.416
-    damper: 4355.4727
+    damper: 4355.472
     targetPosition: 0.5
-  m_SuspensionDistance: 0.3784723
+  m_SuspensionDistance: 0.37847224
   m_ForceAppPointDistance: 0.76619804
   m_Mass: 20
   m_WheelDampingRate: 0.25
@@ -16557,15 +16577,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400056, guid: 86c591ebd74142c4d93243d9fa9544da, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.10509016
+      value: 0.10936518
       objectReference: {fileID: 0}
     - target: {fileID: 400056, guid: 86c591ebd74142c4d93243d9fa9544da, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.06337439
+      value: -0.065952435
       objectReference: {fileID: 0}
     - target: {fileID: 400056, guid: 86c591ebd74142c4d93243d9fa9544da, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.13750573
+      value: 0.1430994
       objectReference: {fileID: 0}
     - target: {fileID: 400056, guid: 86c591ebd74142c4d93243d9fa9544da, type: 3}
       propertyPath: m_LocalPosition.x
@@ -16593,7 +16613,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400056, guid: 86c591ebd74142c4d93243d9fa9544da, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.98286927
+      value: 0.9814337
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: 86c591ebd74142c4d93243d9fa9544da, type: 3}
       propertyPath: m_LocalRotation.z
