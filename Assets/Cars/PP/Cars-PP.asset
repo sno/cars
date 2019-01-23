@@ -55,11 +55,11 @@ MonoBehaviour:
       reflection:
         blendType: 0
         reflectionQuality: 0
-        maxDistance: 105
+        maxDistance: 67
         iterationCount: 200
         stepSize: 4
         widthModifier: 0.5
-        reflectionBlur: 0.1
+        reflectionBlur: 3.67
         reflectBackfaces: 0
       intensity:
         reflectionMultiplier: 1
@@ -125,18 +125,18 @@ MonoBehaviour:
         tint: 0
         hueShift: 0
         saturation: 0.8
-        contrast: 1.06
+        contrast: 1.15
       channelMixer:
-        red: {x: 1, y: 0.2, z: 0}
+        red: {x: 1, y: 0, z: 0}
         green: {x: 0, y: 1, z: 0}
-        blue: {x: 0, y: 0, z: 1.2}
-        currentEditingChannel: 2
+        blue: {x: 0, y: 0, z: 1}
+        currentEditingChannel: 0
       colorWheels:
         mode: 1
         log:
-          slope: {r: 0.9235299, g: 0.91142786, b: 1, a: 0}
+          slope: {r: 1, g: 1, b: 1, a: 0}
           power: {r: 0.9917756, g: 1, b: 0.9835527, a: 0}
-          offset: {r: 0.95584446, g: 1, b: 0.84836274, a: 0}
+          offset: {r: 1, g: 0.94766587, b: 0.8806512, a: 0}
         linear:
           lift: {r: 0, g: 0, b: 0, a: 0}
           gamma: {r: 0, g: 0, b: 0, a: 0}
